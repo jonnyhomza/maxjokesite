@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Knock-Knock Jokes • Max Is The Joke King</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 230px;
+      background: #1e293b;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid rgba(148, 163, 184, 0.3);
+    }
+    .sidebar h2 {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      opacity: 0.9;
+    }
+    .menu a {
+      display: block;
+      padding: 0.6rem 0.3rem;
+      margin-bottom: 0.3rem;
+      border-radius: 6px;
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .menu a:hover {
+      background: #334155;
+      opacity: 1;
+    }
+    .main-content {
+      flex-grow: 1;
+      padding: 2.5rem;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      margin-bottom: 0.5rem;
+    }
+    p.intro {
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+    }
+    ul.joke-list {
+      list-style: none;
+      padding-left: 0;
+      max-width: 700px;
+    }
+    ul.joke-list li {
+      background: #1e293b;
+      margin-bottom: 0.6rem;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+    @media (max-width: 700px) {
+      body { flex-direction: column; }
+      .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+      }
+      .main-content { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- same sidebar as homepage -->
+  <aside class="sidebar">
+    <h2>Joke Categories</h2>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="guywalksintoabar-jokes.html">Guy Walks Into A Bar</a>
+      <a href="clean-jokes.html">Clean</a>
+      <a href="memes.html">Funny Memes</a>
+      <a href="racist.html">Racist</a>
+      <a href="raunchy.html">Raunchy</a>
+      <a href="little-jonny.html">Little Jonny</a>
+      <a href="puns.html">Puns</a>
+      <a href="knock-knock.html">Knock Knock</a>
+      <a href="yo-mama.html">Yo Mama</a>
+      <a href="chuck-norris.html">Chuck Norris</a>
+      <a href="blonde-jokes.html">Blonde</a>
+      <a href="dad-jokes.html">Dad Jokes</a>
+      <a href="one-liners.html">One Liners</a>
+      <a href="miscellaneous.html">Miscellaneous</a>
+      <a href="riddles.html">Riddles</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <h1>Knock-Knock Jokes</h1>
+    <p class="intro">
+      
+    </p>
+
+    <ul class="joke-list">
+      <li>Why don’t skeletons fight each other? They don’t have the guts.</li>
+      <li>I only know 25 letters of the alphabet. I don’t know y.</li>
+      <li>I used to play piano by ear, but now I use my hands.</li>
+    </ul>
+  </main>
+
+</body>
+</html>
